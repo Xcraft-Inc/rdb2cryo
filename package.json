@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Rethinkdb to Cryo database",
   "bin": {
-    "rdb2rdb": "bin/rdb2cryo"
+    "rdb2cryo": "bin/rdb2cryo"
   },
   "dependencies": {
     "gigawatts": "^4.2.0",
