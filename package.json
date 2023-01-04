@@ -1,6 +1,6 @@
 {
   "name": "rdb2cryo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rethinkdb to Cryo database",
   "bin": {
     "rdb2cryo": "bin/rdb2cryo"
