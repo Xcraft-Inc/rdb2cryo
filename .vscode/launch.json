@@ -6,7 +6,7 @@
       "request": "launch",
       "name": "Launch local clone test",
       "program": "${workspaceFolder}/lib/cli.js",
-      "args": ["clone", "localhost", "unit", "localhost", "unit2"]
+      "args": ["clone", "localhost", "unit", "./"]
     }
   ]
 }

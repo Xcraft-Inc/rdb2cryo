@@ -1,19 +1,25 @@
 {
   "name": "rdb2rdb",
   "version": "1.0.0",
-  "description": "Rethink db to rethink db (clone tool)",
+  "description": "Rethinkdb to Cryo database",
   "bin": {
     "rdb2rdb": "bin/rdb2rdb"
   },
   "dependencies": {
+    "gigawatts": "^4.2.0",
     "rethinkdb": "^2.4.2",
-    "watt": "^3.3.0",
-    "yargs": "^17.2.1"
+    "xcraft-core-cryo": "^2.1.2",
+    "yargs": "^17.6.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "2.4.0",
+    "xcraft-dev-prettier": "^2.0.0",
+    "xcraft-dev-rules": "^3.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gillian Fries",
-  "license": "MIT"
+  "author": "Mathieu Schroeter, based on the work of Gillian Fries",
+  "license": "MIT",
+  "prettier": "xcraft-dev-prettier"
 }
