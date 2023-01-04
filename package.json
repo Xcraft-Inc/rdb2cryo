@@ -1,9 +1,9 @@
 {
-  "name": "rdb2rdb",
+  "name": "rdb2cryo",
   "version": "1.0.0",
   "description": "Rethinkdb to Cryo database",
   "bin": {
-    "rdb2rdb": "bin/rdb2rdb"
+    "rdb2rdb": "bin/rdb2cryo"
   },
   "dependencies": {
     "gigawatts": "^4.2.0",
